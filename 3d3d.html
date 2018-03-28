@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<head>
+    <title>Computer Graphics : Assignment 3</title>
+    <meta charset="UTF-8">
+    <link href="style.css" rel="stylesheet">
+
+</head>
+<style>
+    h1{text-align: center;
+        color: red;}
+
+    h4{
+        text-align: center;
+        color: red;
+    }
+
+    #FV
+    {
+        position: absolute;
+        left: 160px;
+        top: 570px;
+
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Times New Roman";
+        color: black;
+    }
+    #ThV
+    {
+        position: absolute;
+        left: 680px;
+        top: 620px;
+
+        font-size: 25px;
+        font-weight: 700;
+        font-family: "Times New Roman";
+        color: black;
+    }
+    #TV
+    {
+        position: absolute;
+        left: 160px;
+        top: 980px;
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Times New Roman";
+        color: black;
+    }
+
+    #SV{
+
+        position: absolute;
+        left: 730px;
+        top: 575px;
+
+        font-size: 20px;
+        font-weight: 700;
+        font-family: "Times New Roman";
+        color: black;
+    }
+
+
+
+</style>
+<body style="font-family:verdana;">
+<br>
+<header>Computer Graphics : Assignment 3</header>
+<p align ="center" style="color:black;font-family:TimesNewRoman;font-size:150%;"> Select any object to see the different VIEWS and also the 3D Model of the Object </p>
+<div class = "wrapper">
+    <table align="center">
+        <tr>
+            <td><a href="3d.html" class="button">House</a></td>
+            <td><a href="slide.html" class="button">Sliding box</a></td>
+            <td><a href="box.html" class="button">Pile of boxes</a></td>
+
+        </tr>
+        <tr>
+
+        </tr>
+    </table>
+</div>
+
+<svg width="1500" height="1000">
+
+
+    <!-- Front View 1st rect piece -->
+    <line x1="150" y1="160" x2="300" y2="160" style="stroke:black ;stroke-width:4" />
+    <line x1="150" y1="160" x2="150" y2="335" style="stroke:black ;stroke-width:4" />
+    <line x1="300" y1="335" x2="300" y2="160" style="stroke:black ;stroke-width:4" />
+    <line x1="300" y1="335" x2="150" y2="335" style="stroke:black ;stroke-width:4" />
+
+    <!-- Front View inside rect -->
+
+    <line x1="195" y1="235" x2="255" y2="235" style="stroke:black ;stroke-width:4" />
+    <line x1="195" y1="235" x2="195" y2="335" style="stroke:black ;stroke-width:4" />
+    <line x1="255" y1="335" x2="255" y2="235" style="stroke:black ;stroke-width:4" />
+    <line x1="255" y1="335" x2="195" y2="335" style="stroke:black ;stroke-width:4" />
+
+
+
+    <!-- lines to top -->
+    <line x1="150" y1="160" x2="225" y2="60" style="stroke:black ;stroke-width:4" />
+    <line x1="300" y1="160" x2="225" y2="60" style="stroke:black ;stroke-width:4" />
+
+
+
+    <!-- Top View 1st rect piece -->
+
+    <line x1="150" y1="460" x2="300" y2="460" style="stroke:black ;stroke-width:4" />
+    <line x1="150" y1="460" x2="150" y2="760" style="stroke:black ;stroke-width:4" />
+    <line x1="300" y1="760" x2="300" y2="460" style="stroke:black ;stroke-width:4" />
+    <line x1="300" y1="760" x2="150" y2="760" style="stroke:black ;stroke-width:4" />
+
+    <line x1="225" y1="460" x2="225" y2="760" style="stroke:black ;stroke-width:4" />
+
+
+    <!-- side View 1st rect piece -->
+
+    <line x1="650" y1="60" x2="1000" y2="60" style="stroke:black ;stroke-width:4" />
+    <line x1="650" y1="60" x2="650" y2="335" style="stroke:black ;stroke-width:4" />
+    <line x1="1000" y1="60" x2="1000" y2="335" style="stroke:black ;stroke-width:4" />
+    <line x1="1000" y1="335" x2="650" y2="335" style="stroke:black ;stroke-width:4" />
+
+
+    <line x1="650" y1="160" x2="1000" y2="160" style="stroke:black ;stroke-width:4" />
+
+    <!-- 3d view -->
+    <line x1="800" y1="960" x2="694" y2="854" style="stroke:black ;stroke-width:4" />
+    <line x1="694" y1="854" x2="694" y2="679" style="stroke:black ;stroke-width:4" />
+    <line x1="800" y1="960" x2="800" y2="785" style="stroke:black ;stroke-width:4" />
+    <line x1="800" y1="785 " x2="694" y2="679" style="stroke:black ;stroke-width:4" />
+
+    <line x1="768" y1="926" x2="768" y2="828" style="stroke:black ;stroke-width:4" />
+    <line x1="726" y1="886" x2="726" y2="786" style="stroke:black ;stroke-width:4" />
+    <line x1="768" y1="828" x2="726" y2="786" style="stroke:black ;stroke-width:4" />
+
+
+
+    <line x1="800" y1="960" x2="1047" y2="713" style="stroke:black ;stroke-width:4" />
+    <line x1="1047" y1="713" x2="1047" y2="538" style="stroke:black ;stroke-width:4" />
+    <line x1="1047" y1="538" x2="800" y2="785" style="stroke:black ;stroke-width:4" />
+
+    <line x1="694" y1="679" x2="760" y2="620" style="stroke:black ;stroke-width:4" />
+    <line x1="760" y1="620" x2="800" y2="785" style="stroke:black ;stroke-width:4" />
+
+    <line x1="760" y1="620" x2="920" y2="480" style="stroke:black ;stroke-width:4" />
+
+    <line x1="920" y1="480" x2="1047" y2="538" style="stroke:black ;stroke-width:4" />
+
+
+
+
+</svg>
+
+
+<p id="FV"> <u>Front View </u></p>
+
+<p id="TV"> <u>Top View </u></p>
+
+<p id="SV"> <u>Side View </u></p>
+
+<p id="ThV"> <u>3D - Model </u></p>
+
+
+
+</body>
+
+
+</html>

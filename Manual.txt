@@ -1,0 +1,12 @@
+    
+MANUAL
+----------------------------------------
+
+
+--Firstly execute the homepage.html, then it redirects to all other pages.
+
+--In this part of the project I have developed the 3 views of the object. Front Side and Top views.
+
+--Using these views 3d model of the object is developed.
+
+--I used 3 generic objects as examples to develop the views and the 3d model of that object 
